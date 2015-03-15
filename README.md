@@ -1,5 +1,5 @@
 # Flask-JWTAuth
-A JWT(Token) Authorization extension of Flask, inspired by Flask-HTTPAuth 
+A JWT(JSON Web Token) Authorization extension of Flask, inspired by Flask-HTTPAuth 
 
 
 ##Quick Start
