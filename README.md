@@ -18,7 +18,6 @@ class User(object):
 		# your verify method here
 		return True
 
-
 @auth_token.verify_token
 def verify_auth_token(token):
 	g.user = User.verify_auth_token(token)
