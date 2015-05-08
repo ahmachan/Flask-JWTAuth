@@ -49,7 +49,6 @@ class HTTPJWTAuth(object):
             return f(*args, **kwargs)
         return wrapper
 
-
     def error_handler(self, f):
         @wraps(f)
         def wrapper(*args, **kwargs):
